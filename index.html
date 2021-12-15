@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Final Project</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="addons/p5.dom.min.js"></script>
+    <script src="addons/p5.min.js"></script>
+    <script src="addons/p5.sound.min.js"></script>
+    <script src="libraries/quicksettings.js"></script>
+    <script src="libraries/p5.gui.js"></script>
+    <script src="libraries/p5.particle.js"></script>
+    <script src="path/to/p5.sound.js"></script>
+  </head>
+
+  <body>
+    <main>
+      <div class="text" id="title">
+        <h1 class="top-header">Audio Visualization Site</h1>
+        <h2>Adjust Your Way: Volume, Bass, and Treble</h2>
+      </div>
+
+      <div id="containers">
+        <p class = "slidetext">Volume:</p>
+        <input type = "range" min="0" max ="100" step="1" value ="50" id=volumeslider/>
+        <p class = "slidetext">Bass:</p>
+        <input type = "range" min="-50" max ="50" step="1" value ="0"/>
+        <p class = "slidetext">Treble:</p>
+        <input type = "range" min="-50" max ="50" step="1" value ="0"/>
+    </div>
+    </main>
+    <script src="sketch.js"></script>
+
+  </body>
+</html>

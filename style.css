@@ -1,0 +1,104 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#img{
+  position: relative;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  z-index: -1;
+}
+
+.text{
+  color: white;
+}
+
+#title{
+  text-align: center;
+  font-weight: 5000;
+  margin: 0 50vh auto;
+  display: flex;
+  color: white;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 38%;
+}
+
+h1{
+  display: block;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#title h2{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+h2{
+  display: block;
+}
+
+#containers{
+  align-items: center;
+  top: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  /* column-gap: 50px; */
+  gap: 5px;
+  justify-content: space-between;
+  color: white;
+  /* padding:10px 0; */
+  position: absolute;
+  margin-left: 27%;
+
+  
+}
+
+.slidetext{
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  /* background: white; */
+
+}
+
+/* #volumeslider{
+  visibility: hidden;
+  background: transparent;
+} */
+
+#sliders{
+  color: white;
+}
+
+input[type="range"] {
+  -webkit-appearance: none !important;
+  background: white;
+  border-radius: 30px;
+  width: 250px;
+  height: 15px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 15px;
+  width: 250px;
+  background: white;
+  border-radius: 10px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance:none !important;
+  height:15px;
+  width:15px;
+  cursor: pointer;
+  background-color: rgb(255, 0, 75);
+  border-radius: 10px;
+  border: 2px solid black;
+}
